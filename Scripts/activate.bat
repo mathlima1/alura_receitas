@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Mathl\Desktop\ESTUDO FRONT-END\estudo__django\ambiente"
+set "VIRTUAL_ENV=C:\Users\Mathl\Desktop\ESTUDO FRONT-END\alura_receitas"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
@@ -14,7 +14,7 @@ if defined _OLD_VIRTUAL_PYTHONHOME (
 )
 
 set "_OLD_VIRTUAL_PROMPT=%PROMPT%"
-set "PROMPT=(ambiente) %PROMPT%"
+set "PROMPT=(alura_receitas) %PROMPT%"
 
 if defined PYTHONHOME (
     set "_OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%"

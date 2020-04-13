@@ -27,14 +27,14 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Mathl\Desktop\ESTUDO FRONT-END\estudo__django\ambiente"
+$env:VIRTUAL_ENV="C:\Users\Mathl\Desktop\ESTUDO FRONT-END\alura_receitas"
 
 # Set the prompt to include the env name
 # Make sure _OLD_VIRTUAL_PROMPT is global
 function global:_OLD_VIRTUAL_PROMPT {""}
 copy-item function:prompt function:_OLD_VIRTUAL_PROMPT
 function global:prompt {
-    Write-Host -NoNewline -ForegroundColor Green '(ambiente) '
+    Write-Host -NoNewline -ForegroundColor Green '(alura_receitas) '
     _OLD_VIRTUAL_PROMPT
 }
 
